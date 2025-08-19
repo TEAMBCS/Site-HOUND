@@ -24,7 +24,7 @@ echo -e "\033[93m [+] Creating launcher script..."
 echo "python3 \$HOME/Site-HOUND/site_hound.py" > "$HOME/.site-hound-run"
 chmod +x "$HOME/.site-hound-run"
 
-echo "\033[91m [+] Adding shortcut command..."
+echo "\033[94m [+] Adding shortcut command..."
 
 # Add shortcut to Bash, Zsh, and Profile
 for file in "$HOME/.bashrc" "$HOME/.zshrc" "$HOME/.profile"; do
@@ -40,7 +40,7 @@ fi
 
 echo
 echo "======================================================="
-echo -e "\933[91m ✅ SITE-HOUND Installed Successfully!"
+echo -e "\033[91m ✅ SITE-HOUND Installed Successfully!"
 echo -e "\033[96m 👉 Type: SITE-HOUND"
 echo -e "\033[92m 🔄 If not working, run: source ~/.bashrc OR restart Termux"
 echo

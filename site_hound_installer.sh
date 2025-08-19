@@ -6,7 +6,7 @@
 
 clear
 echo
-echo "================================================="
+echo -e "\033[91m================================================="
 echo -e "\033[91m🐺 SITE-HOUND INSTALLER by TEAM BCS"
 echo "-------------------------------------------------"
 sleep 1
@@ -24,7 +24,7 @@ echo -e "\033[93m [+] Creating launcher script..."
 echo "python3 \$HOME/Site-HOUND/site_hound.py" > "$HOME/.site-hound-run"
 chmod +x "$HOME/.site-hound-run"
 
-echo "\033[94m [+] Adding shortcut command..."
+echo -e "\033[92m [+] Adding shortcut command..."
 
 # Add shortcut to Bash, Zsh, and Profile
 for file in "$HOME/.bashrc" "$HOME/.zshrc" "$HOME/.profile"; do
@@ -35,7 +35,7 @@ done
 
 # Fish shell support
 if [ -d "$HOME/.config/fish/functions" ]; then
-  echo "function SITE-HOUND; python3 \$HOME/Site-/site_hound.py; end" > "$HOME/.config/fish/functions/SITE-HOUND.fish"
+  echo "function SITE-HOUND; python3 \$HOME/Site-HOUND/site_hound.py; end" > "$HOME/.config/fish/functions/SITE-HOUND.fish"
 fi
 
 echo

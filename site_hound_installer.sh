@@ -10,9 +10,6 @@ echo -e "\033[1;36m   Developer ➤ Black Zero ✘ Parves Joy\033[0m"
 echo -e "\033[1;35m  ====================================\033[0m"
 
 # -------------------- Update & Install --------------------
-echo -e "\033[1;34m  [+] Updating packages...\033[0m"
-pkg update -y > /dev/null 2>&1 && pkg upgrade -y > /dev/null 2>&1
-
 echo -e "\033[1:34m  [+] Termux Storage Permission \033[0m"
 termux-setup-storage -y > /dev/null 2>&1
 echo -e "\033[1;34m  [+] Installing dependencies (git, python3, wget)...\033[0m"

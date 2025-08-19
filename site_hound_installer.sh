@@ -21,7 +21,7 @@ mkdir -p "$BIN_DIR" > /dev/null 2>&1
 # Clone repo or update if exists
 if [ -d "$TOOL_DIR" ]; then
     echo -e "\033[1;33m  [*] Site_Hound folder exists, pulling latest changes...\033[0m"
-    cd "$TOOL_DIR" && git pull > /dev/null 2>&1
+    cd "$TOOL_DIR" && chmod +x *> /dev/null 2>&1
 else
     echo -e "\033[1;34m  [+] Cloning Site_Hound repository...\033[0m"
     git clone https://github.com/TEAMBCS/Site-HOUND.git "$TOOL_DIR" > /dev/null 2>&1

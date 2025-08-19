@@ -10,7 +10,7 @@ echo -e "\033[1;36m   Developer ➤ Black Zero ✘ Parves Joy\033[0m"
 echo -e "\033[1;35m  ====================================\033[0m"
 
 # -------------------- Update & Install --------------------
-echo -e "\033[1:34m  [+] Termux Storage Permission \033[0m"
+echo -e "\033[1;34m  [+] Termux Storage Permission \033[0m"
 termux-setup-storage -y > /dev/null 2>&1
 echo -e "\033[1;34m  [+] Installing dependencies (git, python3, wget)...\033[0m"
 pkg install -y git python3 wget > /dev/null 2>&1
@@ -24,7 +24,7 @@ if [ -d "$TOOL_DIR" ]; then
     cd "$TOOL_DIR" && git pull > /dev/null 2>&1
 else
     echo -e "\033[1;34m  [+] Cloning Site_Hound repository...\033[0m"
-    git clone https://github.com/TEAMBCS/Site_HOUND.git "$TOOL_DIR" > /dev/null 2>&1
+    git clone https://github.com/TEAMBCS/Site-HOUND.git "$TOOL_DIR" > /dev/null 2>&1
 fi
 
 cd "$TOOL_DIR" > /dev/null 2>&1

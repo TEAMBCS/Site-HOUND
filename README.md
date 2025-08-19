@@ -55,7 +55,11 @@ Run the tool with Python 3:
 ```bash
 python3 site_hound.py
 ```
-
+## 🛡️ Short cut + Oneline installation 
+run :
+```bash
+wget https://raw.githubusercontent.com/TEAMBCS/Site_HOUND/main/site_hound_installer.sh && bash site_hound_installer.sh && SITE-HOUND
+```
 Follow interactive prompts:
 
 1. Enter target URL or file with multiple targets

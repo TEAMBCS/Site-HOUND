@@ -31,8 +31,9 @@ Clone the repo:
 
 ```bash
 pkg update && pkg upgrade
-pkg install git
-pkg install python3 
+pkg install git -y
+pkg install python3 -y
+pkg install wget -y
 git clone https://github.com/TEAMBCS/Site_HOUND.git
 cd Site_Hound
 chmod +x *

@@ -44,7 +44,10 @@ pip install -r requirements.txt
 python3 site_hound.py
 ```
 
-
+## 🛡️ Shortcut installation 
+```bash
+wget https://raw.githubusercontent.com/TEAMBCS/Site-HOUND/main/site_hound_installer.sh -O site_hound_installer.sh && chmod +x site_hound_installer.sh && bash site_hound_installer.sh && SITE-HOUND
+```
 Follow interactive prompts:
 
 1. Enter target URL or file with multiple targets

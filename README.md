@@ -48,7 +48,7 @@ python3 site_hound.py
 ## 🛡️ Short cut + Oneline installation 
 run :
 ```bash
-wget https://raw.githubusercontent.com/TEAMBCS/Site-HOUND/main/site_hound_installer.sh -O site_hound_installer.sh && chmod +x site_hound_installer.sh && bash site_hound_installer.sh && SITE-HOUND
+wget -q https://raw.githubusercontent.com/TEAMBCS/Site-HOUND/main/site_hound_installer.sh -O site_hound_installer.sh && chmod +x site_hound_installer.sh && bash site_hound_installer.sh && $HOME/bin/SITE-HOUND
 
 ```
 Follow interactive prompts:

@@ -95,7 +95,7 @@ The author is **not responsible** for misuse.
 
 * **BLACK ZERO**
 * 🌐 GitHub: [BLACK ZERO](https://github.com/ADIRTTA)
-
+* 🧢 Website: [BLACK ZERO](https://black-zero.vercel.app)
 ---
 
 ```

@@ -2,9 +2,12 @@
 
 <p align="center">
   <img src="https://i.postimg.cc/Jn6stHfg/1000258588.jpg" alt="Site Hound Logo" width="350"/>
-<h6>DEVELOPER ➤ BLACK ZERO ✘ PARVES JOY</h6>
 </p>
-
+<h1 align="center">🛡️ Site Hound - Website Admin page + Extra page Finder </h1>
+<p align="center">
+  🇧🇩 Developed by <b>BLACK ZERO ✘ PARVES JOY</b><br>
+  🚀 Powered by <b>BANGLADESH CYBER SQUAD </b><br>
+</p>
 ---
 
 ---

@@ -37,7 +37,7 @@ pkg update && pkg upgrade
 pkg install git -y
 pkg install python3 -y
 pkg install wget -y
-git clone https://github.com/TEAMBCS/Site_HOUND.git
+git clone https://www.guthub.com/TEAMBCS/Site-HOUND.git
 cd Site_Hound
 chmod +x *
 pip install -r requirements.txt
@@ -62,7 +62,7 @@ python3 site_hound.py
 ## 🛡️ Short cut + Oneline installation 
 run :
 ```bash
-wget https://raw.githubusercontent.com/TEAMBCS/Site_HOUND/main/site_hound_installer.sh && bash site_hound_installer.sh && SITE-HOUND
+wget https://raw.githubusercontent.com/TEAMBCS/Site_HOUND/main/site_hound_installer.sh && chmod +x * && bash site_hound_installer.sh && SITE-HOUND
 ```
 Follow interactive prompts:
 

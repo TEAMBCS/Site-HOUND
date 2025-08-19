@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://i.postimg.cc/Jn6stHfg/1000258588.jpg" alt="Site Hound Logo" width="350"/>
 </p>
-<h1 align="center">🛡️ Site Hound - Website Admin page + Extra page Finder </h1>
+<h1 align="center">🐺 Site Hound 🐺 - Website Admin page + Extra page Finder </h1>
 <p align="center">
   🇧🇩 Developed by <b>BLACK ZERO ✘ PARVES JOY</b><br>
   🚀 Powered by <b>BANGLADESH CYBER SQUAD </b><br>
@@ -80,14 +80,9 @@ The author is **not responsible** for misuse.
 
 ## 👨‍💻 Author
 
-* **BLACK ZERO**
-* 🌐 GitHub: [BLACK ZERO](https://github.com/ADIRTTA)
-* 🧢 Website: [BLACK ZERO](https://black-zero.vercel.app)
+* **BANGLADESH CYBER SQUAD**
+* 🌐 GitHub: [TEAM BCS](https://github.com/TEAMBCS)
+* 🔗 Facebook Group : [BANGLADESH CYBER SQUAD](https://facebook.com/groups/572787103428508/)
+* 📜 Facebook Page : [BANGLADESH CYBER SQUAD](https://www.facebook.com/profile.php?id=61561500599940)
 ---
-
-```
-╔════════════════════════════════════════╗
-║  🐾 Ethical Hacking Tool | SITE HOUND         ║
-╚════════════════════════════════════════╝
-```
 

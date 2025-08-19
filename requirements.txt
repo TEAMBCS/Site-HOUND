@@ -1,2 +1,8 @@
-rich 
-pyfiglet 
+aiohttp
+beautifulsoup4
+pyfiglet
+rich
+aiohttp>=3.8.0
+beautifulsoup4>=4.12.2
+pyfiglet>=0.8.post1
+rich>=13.3.0

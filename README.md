@@ -10,7 +10,7 @@
 </p>
 ---
 
----
+
 
 ## 📌 About
 **Site Hound** is a fast, reliable, and interactive web reconnaissance tool for ethical hackers.  
@@ -42,23 +42,9 @@ cd Site_Hound
 chmod +x *
 pip install -r requirements.txt
 python3 site_hound.py
-````
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
 ```
 
----
 
-## 🚀 Usage
-
-Run the tool with Python 3:
-
-```bash
-python3 site_hound.py
-```
 ## 🛡️ Short cut + Oneline installation 
 run :
 ```bash

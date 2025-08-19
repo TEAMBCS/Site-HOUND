@@ -6,24 +6,24 @@
 
 clear
 echo
-echo "🐺 SITE-HOUND INSTALLER by TEAM BCS"
+echo -e "\033[91m🐺 SITE-HOUND INSTALLER by TEAM BCS"
 echo "--------------------------------------"
 sleep 1
 
-echo "[+] Cloning SITE-HOUND tool..."
-git clone https://github.com/TEAMBCS/Site-HOUND.git "$HOME/Site_HOUND" > /dev/null 2>&1
+echo -e "\033[93m [+] Cloning SITE-HOUND tool..."
+git clone https://github.com/TEAMBCS/Site-HOUND.git "$HOME/Site-HOUND" > /dev/null 2>&1
 
-cd "$HOME/Site_HOUND" || { echo "❌ Clone failed!"; exit 1; }
+cd "$HOME/Site-HOUND" || { echo "❌ Clone failed!"; exit 1; }
 
-echo "[+] Installing Python requirements..."
+echo -e "\033[93m [+] Installing Python requirements..."
 pip install --upgrade pip > /dev/null 2>&1
 pip install -r requirements.txt > /dev/null 2>&1
 
-echo "[+] Creating launcher script..."
-echo "python3 \$HOME/Site_HOUND/site_hound.py" > "$HOME/.site-hound-run"
+echo -e "\033[93m [+] Creating launcher script..."
+echo "python3 \$HOME/Site-HOUND/site_hound.py" > "$HOME/.site-hound-run"
 chmod +x "$HOME/.site-hound-run"
 
-echo "[+] Adding shortcut command..."
+echo "\033[91m [+] Adding shortcut command..."
 
 # Add shortcut to Bash, Zsh, and Profile
 for file in "$HOME/.bashrc" "$HOME/.zshrc" "$HOME/.profile"; do
@@ -38,7 +38,7 @@ if [ -d "$HOME/.config/fish/functions" ]; then
 fi
 
 echo
-echo "✅ SITE-HOUND Installed Successfully!"
-echo "👉 Type: SITE-HOUND"
-echo "🔄 If not working, run: source ~/.bashrc OR restart Termux"
+echo -e "\933[91m ✅ SITE-HOUND Installed Successfully!"
+echo -e "\033[96m 👉 Type: SITE-HOUND"
+echo -e "\033[92m 🔄 If not working, run: source ~/.bashrc OR restart Termux"
 echo

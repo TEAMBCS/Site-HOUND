@@ -2,18 +2,10 @@
 
 <p align="center">
   <img src="https://i.postimg.cc/Jn6stHfg/1000258588.jpg" alt="Site Hound Logo" width="350"/>
+<h6>DEVELOPER ➤ BLACK ZERO ✘ PARVES JOY</h6>
 </p>
 
 ---
-
-```
-
-╔════════════════════════════════════════╗
-║        🐺  SITE HOUND - TERMINAL              ║
-║  Ethical Web Reconnaissance Tool              ║
-╚════════════════════════════════════════╝
-
-````
 
 ---
 
@@ -38,8 +30,14 @@ It scans websites to detect administrative and login entry points, automatically
 Clone the repo:
 
 ```bash
+pkg update && pkg upgrade
+pkg install git
+pkg install python3 
 git clone https://github.com/TEAMBCS/Site_HOUND.git
 cd Site_Hound
+chmod +x *
+pip install -r requirements.txt
+python3 site_hound.py
 ````
 
 Install dependencies:

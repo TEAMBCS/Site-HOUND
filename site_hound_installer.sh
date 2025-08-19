@@ -6,8 +6,9 @@
 
 clear
 echo
+echo "================================================="
 echo -e "\033[91m🐺 SITE-HOUND INSTALLER by TEAM BCS"
-echo "--------------------------------------"
+echo "-------------------------------------------------"
 sleep 1
 
 echo -e "\033[93m [+] Cloning SITE-HOUND tool..."
@@ -34,10 +35,11 @@ done
 
 # Fish shell support
 if [ -d "$HOME/.config/fish/functions" ]; then
-  echo "function SITE-HOUND; python3 \$HOME/Site_HOUND/site_hound.py; end" > "$HOME/.config/fish/functions/SITE-HOUND.fish"
+  echo "function SITE-HOUND; python3 \$HOME/Site-/site_hound.py; end" > "$HOME/.config/fish/functions/SITE-HOUND.fish"
 fi
 
 echo
+echo "======================================================="
 echo -e "\933[91m ✅ SITE-HOUND Installed Successfully!"
 echo -e "\033[96m 👉 Type: SITE-HOUND"
 echo -e "\033[92m 🔄 If not working, run: source ~/.bashrc OR restart Termux"

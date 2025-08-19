@@ -6,7 +6,7 @@ BIN_DIR="$HOME/bin"
 # -------------------- Banner --------------------
 echo -e "\033[1;35m  ====================================\033[0m"
 echo -e "\033[1;36m          SITE HOUND INSTALLER        \033[0m"
-echo -e "\033[1;36m   Developer ➤ Balck Zero ✘ Parves Joy\033[0m"
+echo -e "\033[1;36m   Developer ➤ Black Zero ✘ Parves Joy\033[0m"
 echo -e "\033[1;35m  ====================================\033[0m"
 
 # -------------------- Update & Install --------------------

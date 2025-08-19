@@ -38,7 +38,7 @@ pkg install git -y
 pkg install python3 -y
 pkg install wget -y
 git clone https://github.com/TEAMBCS/Site-HOUND.git
-cd Site_Hound
+cd Site-HOUND
 chmod +x *
 pip install -r requirements.txt
 python3 site_hound.py

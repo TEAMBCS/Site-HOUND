@@ -41,7 +41,7 @@ git clone https://github.com/TEAMBCS/Site-HOUND.git
 cd Site-HOUND
 chmod +x *
 pip install -r requirements.txt
-python3 site_hound.py
+python3 site-hound.py
 ```
 
 ## 🛡️ Shortcut installation 

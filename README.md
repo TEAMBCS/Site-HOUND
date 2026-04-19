@@ -169,7 +169,7 @@ pkg install git python -y
 
 git clone https://github.com/TEAMBCS/Site-HOUND.git
 cd Site-HOUND
-
+chmod +x *
 pip install -r site-hound.txt
 python3 site-hound.py -h
 ```

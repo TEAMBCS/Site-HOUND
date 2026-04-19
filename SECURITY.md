@@ -118,7 +118,7 @@ We appreciate responsible security researchers who help improve this project.
 
 ---
 
-## 🔥 Final Note
+## 🔥 Note
 
 > “Security is not a feature — it is a responsibility.”
 

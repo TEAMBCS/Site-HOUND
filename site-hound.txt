@@ -1,4 +1,6 @@
 aiohttp
 beautifulsoup4
 rich
+aiohttp-socks
 pycryptodome
+

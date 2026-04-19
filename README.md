@@ -30,7 +30,7 @@
 
 ## 📌 Description
 
-**Site Hound (Fuzz7 Core Engine)** is a modern, high-performance web fuzzing framework designed for **deep reconnaissance and endpoint discovery**.
+**Site Hound** is a modern, high-performance web fuzzing framework designed for **deep reconnaissance and endpoint discovery**.
 
 Unlike traditional directory brute-force tools, Site Hound integrates:
 

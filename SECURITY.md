@@ -14,7 +14,7 @@ The following versions of Site HOUND are currently supported with security updat
 | Version | Supported |
 | ------- | --------- |
 | v2.0.0+ | ✅ Yes    |
-| <v2.0.0,| ❌ No     |
+| <v2.0.0 | ❌ No     |
 
 > ⚠️ Always use the latest version to stay protected.
 

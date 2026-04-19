@@ -291,6 +291,9 @@ The developer assumes **no liability** for misuse.
 ## 👨‍💻 Author
 * 🔗 Dev: **BLACK ZERO**
 * 🛡️ Team: **BANGLADESH CYBER SQUAD**
+* 🌐 GitHub: [TEAM BCS](https://github.com/TEAMBCS)
+* 🔗 Facebook Group : [BANGLADESH CYBER SQUAD](https://facebook.com/groups/572787103428508/)
+* 📜 Facebook Page : [BANGLADESH CYBER SQUAD](https://www.facebook.com/profile.php?id=61561500599940)
 
 ---
 

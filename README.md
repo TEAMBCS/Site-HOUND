@@ -291,9 +291,28 @@ The developer assumes **no liability** for misuse.
 ## 👨‍💻 Author
 * 🔗 Dev: **BLACK ZERO**
 * 🛡️ Team: **BANGLADESH CYBER SQUAD**
-* 🌐 GitHub: [TEAM BCS](https://github.com/TEAMBCS)
-* 🔗 Facebook Group : [BANGLADESH CYBER SQUAD](https://facebook.com/groups/572787103428508/)
-* 📜 Facebook Page : [BANGLADESH CYBER SQUAD](https://www.facebook.com/profile.php?id=61561500599940)
+
+---
+
+## 🌐 Connect With Us
+
+
+<p align="center">
+  
+  <a href="https://github.com/TEAMBCS">
+    <img src="https://img.shields.io/badge/GitHub-TEAMBCS-181717?style=for-the-badge&logo=github" />
+  </a>
+  
+  <a href="https://facebook.com/groups/572787103428508/">
+    <img src="https://img.shields.io/badge/Facebook-Group-1877F2?style=for-the-badge&logo=facebook&logoColor=white" />
+  </a>
+  
+  <a href="https://www.facebook.com/profile.php?id=61561500599940">
+    <img src="https://img.shields.io/badge/Facebook-Page-1877F2?style=for-the-badge&logo=facebook&logoColor=white" />
+  </a>
+
+</p>
+
 
 ---
 

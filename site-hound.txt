@@ -2,5 +2,6 @@ aiohttp
 beautifulsoup4
 rich
 aiohttp[socks]
+aiohttp-socks
 pycryptodome
 

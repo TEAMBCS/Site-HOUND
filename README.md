@@ -23,7 +23,7 @@
 ![rich](https://img.shields.io/badge/rich-terminal%20ui-purple)
 ![beautifulsoup4](https://img.shields.io/badge/beautifulsoup4-html%20parser-yellow)
 ![License](https://img.shields.io/badge/license-MIT-License.svg)
-![Version](https://img.shields.io/badge/Version-2.0.1%20-yellow)
+![Version](https://img.shields.io/badge/Version-2.0.2%20-yellow)
 
 ---
 

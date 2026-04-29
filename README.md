@@ -334,7 +334,7 @@ You must pass a **JSON array of strings**:
 ### 📌 Example
 
 ```bash
-python tool.py --ua-json '[
+python3 site-hound.py --ua-json '[
   "Mozilla/5.0 (Linux; Android 10; Mobile)",
   "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
   "Mozilla/5.0 (iPhone; CPU iPhone OS 14_0 like Mac OS X)"

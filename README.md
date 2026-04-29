@@ -23,7 +23,7 @@
 ![rich](https://img.shields.io/badge/rich-terminal%20ui-purple)
 ![beautifulsoup4](https://img.shields.io/badge/beautifulsoup4-html%20parser-yellow)
 ![License](https://img.shields.io/badge/license-MIT-License.svg)
-![Version](https://img.shields.io/badge/Version-2.0.2%20-yellow)
+![Version](https://img.shields.io/badge/Version-2.1.3%20-yellow)
 
 ---
 
@@ -316,6 +316,58 @@ The developer assumes **no liability** for misuse.
 
 
 ---
+
+## FIX NOTE ->
+
+### 🔧 `--ua-json` Flag
+
+The `--ua-json` option allows you to provide custom **User-Agent lists** in JSON format. This gives you full control over request headers during execution.
+
+### ✅ Format
+
+You must pass a **JSON array of strings**:
+
+```bash
+--ua-json '["UA1", "UA2", "UA3"]'
+```
+
+### 📌 Example
+
+```bash
+python tool.py --ua-json '[
+  "Mozilla/5.0 (Linux; Android 10; Mobile)",
+  "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+  "Mozilla/5.0 (iPhone; CPU iPhone OS 14_0 like Mac OS X)"
+]'
+```
+
+### ⚙️ Supported Input Cases
+
+This flag is designed to handle multiple input issues automatically:
+
+* ✔ Accepts JSON passed as a **string or list** (argparse safe)
+* ✔ Fixes **extra quotes** from Windows CMD / shell parsing
+* ✔ Removes **BOM characters** from copied input
+* ✔ Handles **multi-line JSON input**
+* ✔ Cleans invalid wrapping like:
+
+  ```bash
+  "[\"UA1\", \"UA2\"]"
+  ```
+
+### ⚠️ Requirements
+
+* Must be a **non-empty JSON array**
+* All elements must be **strings**
+* Invalid JSON will be ignored safely
+
+### 🧠 Behavior
+
+* On success → loads and uses custom User-Agents
+* On failure → logs warning and falls back to default UA list (if available)
+
+---
+
 
 ## 🤝 Contributing
 
